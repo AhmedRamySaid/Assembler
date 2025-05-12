@@ -1,3 +1,8 @@
+# Assember
+Assember for the custom-made single-cycle MIPS processor
+
+![project](https://www.shutterstock.com/image-vector/blue-hexagon-unique-logo-mark-600nw-2506926161.jpg)
+
 | Operation |                    Description                    |        Example        |
 |-----------|---------------------------------------------------|-----------------------|
 | `add`     | Adds two registers                                | `add $rd, $rs, $rt`   |
@@ -13,3 +18,7 @@
 | `pcm`     | Sets PC to Mem[rt] and Mem[rs + I] to Mem[rt] + 1 | `beq $rt, $rs, i`     |
 | `lw`      | Load word from memory                             | `lw $rt, $rs, i`      |
 | `sw`      | Store word to memory                              | `sw $rt, $rs, i`      |
+
+<br><br>
+The code for the processor for this assembler is here:
+https://github.com/AhmedRamySaid/Single-cycle-processor
